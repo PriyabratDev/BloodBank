@@ -26,6 +26,7 @@ const PORT = process.env.PORT || 8080;
 
 //route
 app.use('/api/v1/test',require('./routes/test'));
+app.use('/api/v1/auth',require('./routes/authRoutes'));
 
 //listen
 app.listen(PORT,()=>{
