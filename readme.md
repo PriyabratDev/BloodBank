@@ -3,5 +3,3 @@ MongoDB Connection:
     Solution: connect from atlas -> drivers -> disable SRV connection String 
 
 
-Schema:
-    userModel: user/admin/hospital/organisation
